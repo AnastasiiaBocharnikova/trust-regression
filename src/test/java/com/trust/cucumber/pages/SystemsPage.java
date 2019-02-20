@@ -445,7 +445,7 @@ public class SystemsPage extends PageObject {
 
 
 	public void uploadLogoForSystem(String fileName) {
-		StringSelection ss = new StringSelection("src/test/resources/" + fileName);
+		StringSelection ss = new StringSelection("C:\\Users\\bocharnikova\\Documents\\GitHub\\trust-regression\\src\\test\\resources\\" + fileName);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 //		File photo = new File("src/test/resources/" + fileName);
 		uploadLogoButton.click();
@@ -454,8 +454,8 @@ public class SystemsPage extends PageObject {
 		waitABit(2000);
 		try {
 			Robot robot = new Robot();
-			robot.keyPress(KeyEvent.VK_SLASH);
-			robot.keyPress(KeyEvent.VK_BACK_SPACE);
+//			robot.keyPress(KeyEvent.VK_SLASH);
+//			robot.keyPress(KeyEvent.VK_BACK_SPACE);
 			robot.keyPress(KeyEvent.VK_CONTROL);
 			robot.keyPress(KeyEvent.VK_V);
 			robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -465,6 +465,8 @@ public class SystemsPage extends PageObject {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
+
+		clickOkModalButton();
 	}
 }
 

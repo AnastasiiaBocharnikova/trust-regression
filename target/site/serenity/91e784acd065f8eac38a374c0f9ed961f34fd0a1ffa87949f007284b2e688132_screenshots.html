@@ -114,7 +114,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-02-2019 12:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-02-2019 18:10</span>
     <br style="clear:left"/>
 </div>
 
@@ -158,9 +158,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="pending-color">Uploading file for a system
+                                <span class="error-color">Uploading file for a system
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -177,71 +177,115 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Web driver exception: The following error occurred: unknown error: Element (button class='jss57 jss141 jss152 jss153 jss155 jss156' tabindex='0' type='button' id='modal-button-ok')...(/button) is not clickable at point (634, 786). Other element would receive the click: (div class='jss656' aria-hidden='true' style='opacity: 1; will-change: opacity; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;')(/div)  (Session info: chrome=71.0.3578.98)  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'System info: host: 'BOCHARNIKOVA', ip: '10.161.233.233', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\BOCHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}Session ID: dd36864826a5021c86d01563c6317928Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'System info: host: 'BOCHARNIKOVA', ip: '10.161.233.233', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'Driver info: driver.version: unknown">
+                            Web driver exception: The following error occurred: unknown error: Element (button class='jss57 jss141 jss152 jss153 jss155 jss156' tabindex='0' type='button' id='modal-button-ok')...(/button) is not clickable at point (634, 786). Other elem...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    org.openqa.selenium.WebDriverException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: unknown error: Element &lt;button class=&quot;jss57 jss141 jss152 jss153 jss155 jss156&quot; tabindex=&quot;0&quot; type=&quot;button&quot; id=&quot;modal-button-ok&quot;&gt;...&lt;/button&gt; is not clickable at point (634, 786). Other element would receive the click: &lt;div class=&quot;jss656&quot; aria-hidden=&quot;true&quot; style=&quot;opacity: 1; will-change: opacity; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;&quot;&gt;&lt;/div&gt;<br>  (Session info: chrome=71.0.3578.98)<br>  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 0 milliseconds<br>Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'<br>System info: host: 'BOCHARNIKOVA', ip: '10.161.233.233', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\BOCHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}<br>Session ID: dd36864826a5021c86d01563c6317928<br>Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'<br>System info: host: 'BOCHARNIKOVA', ip: '10.161.233.233', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    com.trust.cucumber.pages.SystemsPage.clickOkModalButton(SystemsPage.java
+                                    :139) <br>
+                                    com.trust.cucumber.pages.SystemsPage.uploadLogoForSystem(SystemsPage.java
+                                    :469) <br>
+                                    com.trust.cucumber.steps.SystemsPageSteps.selectLogoForSystem(SystemsPageSteps.java
+                                    :397) <br>
+                                    com.trust.cucumber.stepDefs.SystemPageStepDef.selectLogoForSystem(SystemPageStepDef.java
+                                    :357) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7364758654279425085.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f2dd944fb0bb5140fa51380292b6e4f212666dc885d7fa7784f3b9ed1aa86ab7.png" title="Given User launches application1" width="2880"/>
-                <img src="a67f413a78538ad3c08aed1046a2655758a6feb7a46c2896404c8801f466005b.png" title="Launchapp: https://techcheck-qa.cengage.com/" width="2880"/>
-                <img src="feb532fd4607684c96eda790cdb70768e163f3a1206b22f204699a7ece35d6a2.png" title="When User Navigates to LoginPage1" width="2880"/>
-                <img src="e68b97f9067cbd149586d71119c537e14b010583097e02657b08162e214ea021.png" title="When User Navigates to LoginPage1" width="2880"/>
-                <img src="5b81cd51402938fc11c32b5ac70138df7fc4ff09b240a73579e46c23eb0b1a2d.png" title="Go to login page" width="2880"/>
-                <img src="fb8d6481946480dc3c6b776e429046db1ad10dff443f3e164a6fb04b571aea20.png" title="Go to login page" width="2880"/>
-                <img src="aec48912fbd86c6add307fafba04dc08242279d150fcadcab967ec87e5fed71f.png" title="And Login with valid admin credentials1" width="2880"/>
-                <img src="3fa2e873a159d8be28db70b7ad30b0b2180048e3639dc315d251282a003260ed.png" title="Login app: auto-test, 2018Auto@!" width="2880"/>
-                <img src="bbf868cb1f195cb51f5c7ba11f0fa4d19f5c307c5ef387cb87b4bdb8edb04a9e.png" title="Then Platform Availability Home Page is opened" width="2880"/>
-                <img src="394d3eb3ba4cfa6dfef34b557e365ba2c1bf1aeecf449d76d652890944d14f11.png" title="Then Platform Availability Home Page is opened" width="2880"/>
-                <img src="ed3c1684bb0f667f1df38fd398358e96f4f6d02f967008217407b97d11c29935.png" title="Is required page opened: Platform Availability Home" width="2880"/>
-                <img src="c3c50489f58d58b49550407232bf280b8589e10d6b2091adb65de1f1b4bdb0fe.png" title="Is required page opened: Platform Availability Home" width="2880"/>
-                <img src="82965e8a0fcbf5440ea27d7892ed3106bfcb190beb833c2becbeabc7967211e9.png" title="When User clicks on hamburger menu button" width="2880"/>
-                <img src="3287fcb9eb8bc2753863e5d77a922087f33cf39f9be688ed6be6e0847b87e005.png" title="When User clicks on hamburger menu button" width="2880"/>
-                <img src="458d22cad1f9c25f8574bfeec7fe6f2f8bf69c9b0436a9d0f89ed40273dc5aa3.png" title="Click on closed menu button" width="2880"/>
-                <img src="411b9fe4cc0adefaf376dc6cf8c7c421e6aa78a3b129a53f4e879ce51c75a27b.png" title="Click on closed menu button" width="2880"/>
-                <img src="8a4bd9d3f5f082d0d6f9906abdef50c21acc2f24d304fb2f328d00748011d1ed.png" title="And User clicks on Systems from admin menu" width="2880"/>
-                <img src="9b98c342aaa00edc2420b2d7fb0a9900c6c1b95896988d1309238825339b88ab.png" title="And User clicks on Systems from admin menu" width="2880"/>
-                <img src="a7f669cb891046d8b9376f229a7df5c3ad4e035a4f8f6b9512f349b72ab75990.png" title="Click on admin menu option: Systems" width="2880"/>
-                <img src="6c044aacbd9542db7bbcd970e135b6c7fc803fbf5b5bd647bf3d480142a1339b.png" title="Click on admin menu option: Systems" width="2880"/>
-                <img src="9b98c342aaa00edc2420b2d7fb0a9900c6c1b95896988d1309238825339b88ab.png" title="Then Systems Page is opened" width="2880"/>
-                <img src="7ccbcfb857e0ff2479c46ba5daa89b33fa5e3003015036e44e13a0dde52eee3d.png" title="Is required page opened: Systems" width="2880"/>
-                <img src="9b98c342aaa00edc2420b2d7fb0a9900c6c1b95896988d1309238825339b88ab.png" title="Is required page opened: Systems" width="2880"/>
-                <img src="ff04c91433c1bb392b21abf6f254eaff96c78c502393d9cb0882c3f5c054dec8.png" title="When User clicks Expand button depending on sections displaying" width="2880"/>
-                <img src="2f8879805632da4cdf0d853edf12acd4283fef4d59e526fb2e7da10067ccc617.png" title="Checking expand all status" width="2880"/>
-                <img src="d4bdd0076e2b6150b6f4f17fba89d86fd093b0a3aaae9558f8618ca5f7dc57d2.png" title="And User clicks Add group button" width="2880"/>
-                <img src="1a50394a46057bca7333456d912461200f2d7562fd630dd7d2c28505096ff2f3.png" title="Click add group button" width="2880"/>
-                <img src="e63b5cc1a518832bad8fa072c1b7bd9c3971087af7af981c405349721292631e.png" title="And User populates form with autoUploadGroup name" width="2880"/>
-                <img src="026f1436dac53abdc04f3bf1aa0b8a94cfc958442425cf63b7fc067d0486a894.png" title="Populate group form: autoUploadGroup" width="2880"/>
-                <img src="f67235e7c298bbfecb7c925f457b55f442eb56b8733952189dea004159736b1c.png" title="Then Group autoUploadGroup is displayed on the page" width="2880"/>
-                <img src="556619ae7775cdb31bac64f52996f610ec97af12435a806354789c3fe46f96d3.png" title="Then Group autoUploadGroup is displayed on the page" width="2880"/>
-                <img src="3eecca280f9c3bf589448cbdcfbe17cbe7285b2f8a85d6a11f19fa09979c9f80.png" title="Verify group is displayed: autoUploadGroup" width="2880"/>
-                <img src="441847eda8d4ef8a5d8cbf563d9c46e241340a6cadea1883f4dc0db73a5d2bf2.png" title="Verify group is displayed: autoUploadGroup" width="2880"/>
-                <img src="885d6746127d5a4ed7b8f184af7db3c2079af0f2df44de95cdba8f7318f61246.png" title="When User clicks Add System for autoUploadGroup group" width="2880"/>
-                <img src="68b086ceaf4b16eb1dc6c448d9bec1a790833983780353a6e35eb9a5b220b325.png" title="When User clicks Add System for autoUploadGroup group" width="2880"/>
-                <img src="8e29422c056b04dd5427fa50bdba96e8379162d42cd93718bc3b49f6b453af86.png" title="Click add system for specific group: autoUploadGroup" width="2880"/>
-                <img src="9ea33955c93f91998e46da3b15696196fe6e4e0ff840869b66758d3de2f27ba1.png" title="Click add system for specific group: autoUploadGroup" width="2880"/>
-                <img src="8745d2e071409eedfe6a1c55e3276dd95f7ae179a117b00cad7c99712de0fcb9.png" title="And User populates system form with uploadSystems name and GPT access level" width="2880"/>
-                <img src="8a71a1f6eea46e048e22fb8265695ce2e9fc8e87883efd23035aba4e55fdc9fd.png" title="And User populates system form with uploadSystems name and GPT access level" width="2880"/>
-                <img src="8745d2e071409eedfe6a1c55e3276dd95f7ae179a117b00cad7c99712de0fcb9.png" title="Populate new system form: uploadSystems, GPT" width="2880"/>
-                <img src="86274b13fe0b65fbf5b343b03033bb31fba9689c1f1af07ec245be9f250b809a.png" title="Populate new system form: uploadSystems, GPT" width="2880"/>
-                <img src="86274b13fe0b65fbf5b343b03033bb31fba9689c1f1af07ec245be9f250b809a.png" title="Click ok modal button" width="2880"/>
-                <img src="5d9d3aa0428b3b82fe27a560bf9d33d5fa081bea92da6d695af79444547aee7c.png" title="Click ok modal button" width="2880"/>
-                <img src="c801cff6d789c5869a4418a9fda1ba1043e909444c9da531eed9ac2c7abbfae8.png" title="Then System uploadSystems is displayed on the page" width="2880"/>
-                <img src="2fb9c51d7bd6d7cdd83d279e4ff6d15f43ef0af24038691dc66857fc604fbb0e.png" title="Then System uploadSystems is displayed on the page" width="2880"/>
-                <img src="1502817c12ebf20a2a1426c10b0392e12a9a502aa1824208158c3e6149742020.png" title="Verify system is displayed: uploadSystems" width="2880"/>
-                <img src="4d3bf1031e5b8ba61a6cb9ce3b9d1090461fbae5bc24f40da3c678ec90e284be.png" title="Verify system is displayed: uploadSystems" width="2880"/>
-                <img src="d595e9bad48eea4354bff450270dc7fe9ae0d21fd478cdb8b9636f935ce2ce3e.png" title="When User clicks update icon for uploadSystems system" width="2880"/>
-                <img src="d1ac8e2843bd4ffcd4faf716225d0d75e31cf77e404b81abe72a64996db35285.png" title="When User clicks update icon for uploadSystems system" width="2880"/>
-                <img src="39aa7ffdaeba6911193e87e4eea088feb586311cd1d545a65924c1ea71acbc53.png" title="Click update icon for specific system: uploadSystems" width="2880"/>
-                <img src="eda7aaee546e311b09130cff0e8599b2d5adb13c24bd4f6f28b91d9503548091.png" title="Click update icon for specific system: uploadSystems" width="2880"/>
-                <img src="d7239b8a93e17beee8bb661c7faa87650597b89dbbcd27b5f759bec1be7b7e31.png" title="Then Edit system form is displayed" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="Then Edit system form is displayed" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="Verify edit system form is displayed" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="When User clicks on Add Logo button and selects pathbrite-square.png image" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="Select logo for system: pathbrite-square.png" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="Then System uploadSystems is displayed on the page" width="2880"/>
-                <img src="14cb1faa679b0a3ae9f0c6b2c6645ba65100636b55d4ffcffa64c7fef39b138d.png" title="Verify system is displayed: uploadSystems" width="2880"/>
-                <img src="c74a1daf671a4f1e0803fe1204f0fd90fda5cbaab320d3fd44d4f6972744b98f.png" title="When User deletes uploadSystems system" width="2880"/>
-                <img src="139bf6083b0893e6d90bfb86a1a751eb838c9f8944e453383280cb4eb0223271.png" title="Click delete icon for specific system: uploadSystems" width="2880"/>
-                <img src="401d992be720cfcac17b26efb71b65a90e30d3322d3aef5db7ee708967cd2ef9.png" title="Click proceed modal button" width="2880"/>
-                <img src="3a89f3605daa583c2bd905f277c6a7c6aca83735c915fc07deb09cd0178ecfd6.png" title="Click proceed modal button" width="2880"/>
-                <img src="84f793286a1eb30ea330fb1efbcb3280c0a98a785bf5b19deb67def859845e8e.png" title="Then System uploadSystems is removed: <span class='pending-color'>PENDING</span>" width="2880"/>
+                <img src="1081e151df7927040d3ab9f0a95d68d67b0469b1477d85c58fb544d0682fa45b.png" title="Given User launches application1" width="1920"/>
+                <img src="3a4b078722c3e565e746011cf47dec4e1354fa27d047246a4b06e016ef86138d.png" title="Launchapp: https://techcheck-qa.cengage.com/" width="1920"/>
+                <img src="7c325b695853b622535a73c8b210ff22bf2b92672951a147f4980677ba6d9c55.png" title="When User Navigates to LoginPage1" width="1920"/>
+                <img src="c9087e45b2b7fc3436ff76562d4920b13432ffe9ee6d1b4d4d6eb9056750d1f1.png" title="When User Navigates to LoginPage1" width="1920"/>
+                <img src="1141b737c0dfd589ac74c252a5c310e68650f031fc931224a2f02782757b1b49.png" title="Go to login page" width="1920"/>
+                <img src="c9087e45b2b7fc3436ff76562d4920b13432ffe9ee6d1b4d4d6eb9056750d1f1.png" title="Go to login page" width="1920"/>
+                <img src="391fd29ab1b1cf9c517c00ffbd758d0e8208fef06626ed8322f9c436a424fa3c.png" title="And Login with valid admin credentials1" width="1920"/>
+                <img src="4efd1d125c9bf266b74496a612b76e05b1a7a88e1fec05fe9341a2b57fb16a7a.png" title="Login app: auto-test, 2018Auto@!" width="1920"/>
+                <img src="745bee542f850da039ac283450e91269bbeb7f29deed69b7bb7922900a545700.png" title="Then Platform Availability Home Page is opened" width="1920"/>
+                <img src="5dbcfebccf4ba241fae51a17e08f5e9db56d4b081a74978c2e32a797d00f249e.png" title="Then Platform Availability Home Page is opened" width="1920"/>
+                <img src="fec8b8cd15951d45c514e884a108e3be73e606e7d2e7b9d7eabfa39bd627d79d.png" title="Is required page opened: Platform Availability Home" width="1920"/>
+                <img src="9c914b773f62b13cae8707683ef7dd6c4836e6e8e733d37f6996a6c394ce7f98.png" title="Is required page opened: Platform Availability Home" width="1920"/>
+                <img src="55acb32ef9d3e17b85ab6f591a79ba6e7cd2204730e3eb676ed98b39fc5e77cf.png" title="When User clicks on hamburger menu button" width="1920"/>
+                <img src="5e8e360463a4d30dfa6128439f30227c33cbb17aaea43ac38d66192b9a96c7a9.png" title="When User clicks on hamburger menu button" width="1920"/>
+                <img src="6984ca5a283c408af08a887c2a9f57a65bb7dec58d30900148b7340a6c74612e.png" title="Click on closed menu button" width="1920"/>
+                <img src="4819b9299d85af3aacca613fbd4e2cdf500113712caae470881f0d3a6dd3b834.png" title="Click on closed menu button" width="1920"/>
+                <img src="5f5b47401b9c328cd5f558bdd7d209f23421b1d5c06f7613c8fb1297c20fa378.png" title="And User clicks on Systems from admin menu" width="1920"/>
+                <img src="8731d4553abae3836fe9c082bc9e4c0f7d66da0f7c6e248fc3f3967f9af3900e.png" title="And User clicks on Systems from admin menu" width="1920"/>
+                <img src="8b6801390cb354052d1c379ec165727b769f01766b1953d4973e9120ab57ae62.png" title="Click on admin menu option: Systems" width="1920"/>
+                <img src="8731d4553abae3836fe9c082bc9e4c0f7d66da0f7c6e248fc3f3967f9af3900e.png" title="Click on admin menu option: Systems" width="1920"/>
+                <img src="8731d4553abae3836fe9c082bc9e4c0f7d66da0f7c6e248fc3f3967f9af3900e.png" title="Then Systems Page is opened" width="1920"/>
+                <img src="8731d4553abae3836fe9c082bc9e4c0f7d66da0f7c6e248fc3f3967f9af3900e.png" title="Is required page opened: Systems" width="1920"/>
+                <img src="6f3ae696bf1beeca20e6ca36a238a268f72672eebca6c8647cd9c3c90465fe36.png" title="When User clicks Expand button depending on sections displaying" width="1920"/>
+                <img src="ac82d97066c843104e151ba243695026de73cebd38cd8e30a4ad76d9215da9bb.png" title="Checking expand all status" width="1920"/>
+                <img src="d6e73abbd462eda6fb10cd0cc0803735efbf2b4090337c2f1c3e8a4eb182cbc7.png" title="And User clicks Add group button" width="1920"/>
+                <img src="bd69c42c3370b798e54468227a3f480d9bc7b8e27a6b93bd5cac0606c6a36b21.png" title="Click add group button" width="1920"/>
+                <img src="15966b62642022b23ab4a03b19a5edb2952912278932e48467c9f6e367c3225e.png" title="And User populates form with autoUploadGroup name" width="1920"/>
+                <img src="b0c68470f41eea744b8cb0b9f17b73bf6505086f00729efd954cb7c078bb2584.png" title="Populate group form: autoUploadGroup" width="1920"/>
+                <img src="253669fd20042d9ed2aceca92a1da8ea1d5bac095b1ee3011a5435146d584122.png" title="Then Group autoUploadGroup is displayed on the page" width="1920"/>
+                <img src="2ba11d411efd00c613b2d6625023b75b2a43e5eb3d15da05371816bfc7e1b4ba.png" title="Then Group autoUploadGroup is displayed on the page" width="1920"/>
+                <img src="17a9b2de1d53c861acbe3d306ff23dacd801d2d7034f537e8f86cfc8a460371d.png" title="Verify group is displayed: autoUploadGroup" width="1920"/>
+                <img src="b6ad2b4969c87b7bf4559805997cff21a5997a7479efb1ed2cc136a8c5560f77.png" title="Verify group is displayed: autoUploadGroup" width="1920"/>
+                <img src="337883fb968a472f29f5a6f59e14083f9a94a42762e9c2cdc51a9f6b007a5486.png" title="When User clicks Add System for autoUploadGroup group" width="1920"/>
+                <img src="22a3a41c6838fbbc2f5715dd8588cbfa74b2f0d81973a3ee8124076e01a1d6d9.png" title="When User clicks Add System for autoUploadGroup group" width="1920"/>
+                <img src="9776e312569e3fc6633c2adc12c382f3c06be9fd5d463b9ff8cb471daef50ce3.png" title="Click add system for specific group: autoUploadGroup" width="1920"/>
+                <img src="4074e6055a9049cfdd721adad3da00a9ee4df0780cda8019c4c06f4dbaf87e54.png" title="Click add system for specific group: autoUploadGroup" width="1920"/>
+                <img src="45ca93a9c53ebaad050f8781591ef057d02c91fd0ca239ccc410ab65fa0a7370.png" title="And User populates system form with uploadSystems name and GPT access level" width="1920"/>
+                <img src="fce06b84c380c9ba483333ea371e094214414a85095ed527816edf29a669523e.png" title="Populate new system form: uploadSystems, GPT" width="1920"/>
+                <img src="b538b7b5407244b284fad9664232c082a2207ddc01fd9bcb7d71521aba0dca16.png" title="Click ok modal button" width="1920"/>
+                <img src="136d46e5a739546db7e3958a163608653aacf65c0ee4bbf0a52199b888fd9033.png" title="Click ok modal button" width="1920"/>
+                <img src="053e0aaa52f5de49e81c5bd57e2f228393cc38ab482bea3346069f7bb9c227d6.png" title="Then System uploadSystems is displayed on the page" width="1920"/>
+                <img src="1302fd2786d1e3da29118dbd6fc8d9545107d0bddfc9348f26f2fd2f226caf19.png" title="Then System uploadSystems is displayed on the page" width="1920"/>
+                <img src="ea3192bf49a5280063415b59fe8e9db13908ee76db6d9a5033db88cbf146fc4a.png" title="Verify system is displayed: uploadSystems" width="1920"/>
+                <img src="55c5490f29c638c3b3dead092265bec4402a53193ba54479664fa1fe250a573f.png" title="Verify system is displayed: uploadSystems" width="1920"/>
+                <img src="45a4e9c5a887c4df7785b67baf3865ef4b301bec2c121d1e5b1aeb9d64f33706.png" title="When User clicks update icon for uploadSystems system" width="1920"/>
+                <img src="1e2d34df53b48ce5c9aa4fac5033b006a8b90ae5c3d4706849a7de8a89e6d59d.png" title="When User clicks update icon for uploadSystems system" width="1920"/>
+                <img src="1f13fdd143859424f7573951ef331c0ed2470f02175f81dd22a71bc3e78401ad.png" title="Click update icon for specific system: uploadSystems" width="1920"/>
+                <img src="125347256d8689661274d9fe660bf81ce820ca6b14b346e5600b7ff52ad92be0.png" title="Click update icon for specific system: uploadSystems" width="1920"/>
+                <img src="ce57e601d238e684507b89fcfa6706820d2ca08483cc555ec108e0bee30322cf.png" title="Then Edit system form is displayed" width="1920"/>
+                <img src="dcdab8c4710f10dfcb426f5cbcd1cefd66ea92a405124c06933878f4b9097604.png" title="Then Edit system form is displayed" width="1920"/>
+                <img src="dcdab8c4710f10dfcb426f5cbcd1cefd66ea92a405124c06933878f4b9097604.png" title="Verify edit system form is displayed" width="1920"/>
+                <img src="dcdab8c4710f10dfcb426f5cbcd1cefd66ea92a405124c06933878f4b9097604.png" title="When User clicks on Add Logo button and selects pathbrite-square image" width="1920"/>
+                <img src="083c04b6df2d7e68c9bb166790828fc3cffbfa63c85ca9892f6398e6083dbbe2.png" title="Select logo for system: pathbrite-square: <span class='error-color'>ERROR</span>" width="929"/>
             </div>
         </div>
 
