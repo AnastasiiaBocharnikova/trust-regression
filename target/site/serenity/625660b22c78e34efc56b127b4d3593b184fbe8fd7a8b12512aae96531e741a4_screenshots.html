@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="25be17b9d236cc5e30bb93c8cf4270c84e2cccbdf7e28f7e36a0a694e10c1d0e.html">Systems</a></span>
+                > <span class="truncate-60"><a
+                    href="625660b22c78e34efc56b127b4d3593b184fbe8fd7a8b12512aae96531e741a4.html">Creating aggregated monitor </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-02-2019 18:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Systems </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: User launches application and login1
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Creating aggregated monitor
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="967470ee4e55bdbe2dcf03040dc4f290fc805d125733f86432d1f76f7a715c8e.png" title="Given User launches application1" width="2880"/>
+                <img src="025f1c0971538d71ba3a7f308c397d69877eec605f28a02034c75c53842370d7.png" title="Launchapp: https://techcheck-qa.cengage.com/" width="2880"/>
+                <img src="98c0946914259b56ddae5e5eac96efad1fdb15a95e36b633931c0fa4a2292263.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="6b692c828458df7d28836c3ca6d4b45756910c9893aba9a5fab4498e3dcf0e1f.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="78d3d67ad420542c13df50c76a9e8ecb4a40e31094b3c69c5d1de06f514a899f.png" title="Go to login page" width="2880"/>
+                <img src="cdbd48f6924ad099e1967da424a41759852b816257b2167f5554d29fc3f97021.png" title="Go to login page" width="2880"/>
+                <img src="2a3052cef1489933c93d0c2d5dd601634cba8c56189ef187aea115bcf785c519.png" title="And Login with valid admin credentials1" width="2880"/>
+                <img src="a282326d3d81d5d077a52f48b1b283302abc72c364ca5742a8f5878846b74d55.png" title="Login app: auto-test, 2018Auto@!" width="2880"/>
+                <img src="283c926b14f3817ed20a8da425696b75d2de2a9df7507d9796a25feaa41f3c09.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="de57b3ce7260b000b1fdacc36bd7d83c3e818dd9b3cc787481b5512d035d4f5c.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="966e4d3f54c3bc18762417529722d9d2dff5c58c4213f08866f21f0a85bfa721.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="aec99ef5f3ffc7bd34572350cfa49deb8f06c9dcf47efdec98fff0cf792340aa.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="a26d725c4e188c55c9b9cc04e2e55faead0e01d560850da4f6c907126ae63a1e.png" title="When User clicks on hamburger menu button" width="2880"/>
+                <img src="79859e9c8b91dc9bc1bfab3a71e677acc5c99b0050acafa62dcb18c055d552eb.png" title="When User clicks on hamburger menu button" width="2880"/>
+                <img src="0a2d12c6412741599799cf35389ef123b9a7faa3d9a9fa6d55b06c3d2ff6f530.png" title="Click on closed menu button" width="2880"/>
+                <img src="3619e78ab1de3c1fb3f50471e3f7328826a5d3d3e1fc385e1477b64f5086cb36.png" title="Click on closed menu button" width="2880"/>
+                <img src="28cab17ee59cd2a23c3fc2f121b02d12cb549d233e42bcac4a4d6690e5ad49f7.png" title="And User clicks on Systems from admin menu" width="2880"/>
+                <img src="1c90d7f3a021b56de1115b5dd87f1ace47c773b7f4fadb751f28108f6dc25847.png" title="And User clicks on Systems from admin menu" width="2880"/>
+                <img src="6546495164dae7247d1ffadffbe1ff05b5a058e0e905204285031c8f6c9004be.png" title="Click on admin menu option: Systems" width="2880"/>
+                <img src="26542c8ca19d3df7a05efe8c4c652bf3ee757b04eb12083c4ce620b74530efcb.png" title="Click on admin menu option: Systems" width="2880"/>
+                <img src="1c90d7f3a021b56de1115b5dd87f1ace47c773b7f4fadb751f28108f6dc25847.png" title="Then Systems Page is opened" width="2880"/>
+                <img src="1c90d7f3a021b56de1115b5dd87f1ace47c773b7f4fadb751f28108f6dc25847.png" title="Is required page opened: Systems" width="2880"/>
+                <img src="5f93ec00641941d5453df32de00dfdeb40dcab0d34530e968ee2f9185a855d94.png" title="When User clicks Expand button depending on sections displaying" width="2880"/>
+                <img src="bf889e3713d0f868aad2b6328a064ae1e958d944921a46bb480b4226693d2429.png" title="Checking expand all status" width="2880"/>
+                <img src="2898086ea0df675307908af23ddef49db3a7c9056e7e20e773ac2fa8ea2432fc.png" title="And User clicks Add group button" width="2880"/>
+                <img src="2d47e23d8db17948e4f47fb528bb61da5eb5f6ac164ea68ca3adade0809f9969.png" title="Click add group button" width="2880"/>
+                <img src="63895ade4c0804fbac4a6ab85bc1889d62c25cd2c2c856097c082ef435cefa92.png" title="And User populates form with autoAggrGroup name" width="2880"/>
+                <img src="cfc8ebc23cac4312fec781dc5269a96c41470f8f616c8c2ea94d7df885644214.png" title="Populate group form: autoAggrGroup" width="2880"/>
+                <img src="832cc5156ada6acfc16a00c020ea8fff49a578535cc28b196a49807e20b25aeb.png" title="Then Group autoAggrGroup is displayed on the page" width="2880"/>
+                <img src="17f4b76fc72d16a16ec135fe500fc5b1b9d11b4ed6a203d764daaef335690dbe.png" title="Then Group autoAggrGroup is displayed on the page" width="2880"/>
+                <img src="260f8eaa32b8eb247c58adafed3dec82dd6d76c59361984748650d648873eef1.png" title="Verify group is displayed: autoAggrGroup" width="2880"/>
+                <img src="108f47bc6d430ce66e60a052a5a981d6973d703aad1212afb3385ea8d0095d96.png" title="Verify group is displayed: autoAggrGroup" width="2880"/>
+                <img src="dd602eb3dce0292c9fcf6d0b19802383f48c93daa0c1ddc1cf7d7ebbcc88320b.png" title="When User clicks Add System for autoAggrGroup group" width="2880"/>
+                <img src="a0760092c5538e4fe2a73a158be23ccce1325769c32a637a62c7984421c0f141.png" title="When User clicks Add System for autoAggrGroup group" width="2880"/>
+                <img src="ce5119947b028ef62591a414d6ef9bf7a6647047883c74af9dd627fddedfc48b.png" title="Click add system for specific group: autoAggrGroup" width="2880"/>
+                <img src="ff1a741eb0943a1b028d82ffb1e1df540cd15b1c05124fffde01526fd2465a33.png" title="Click add system for specific group: autoAggrGroup" width="2880"/>
+                <img src="dbe3cdcc6f2378cf2b0fb23668200002b699857baa6c622cb9a33c8fa1a27ac9.png" title="And User populates system form with autoSystems name and GPT access level" width="2880"/>
+                <img src="2aa84fb73f5a9e5d31f63337aa5b2997f04234e66b465909fd050c93c145d010.png" title="And User populates system form with autoSystems name and GPT access level" width="2880"/>
+                <img src="dbe3cdcc6f2378cf2b0fb23668200002b699857baa6c622cb9a33c8fa1a27ac9.png" title="Populate new system form: autoSystems, GPT" width="2880"/>
+                <img src="2768e447119a382625937acb989416dc48484d745bf77271111d675133ad0620.png" title="Populate new system form: autoSystems, GPT" width="2880"/>
+                <img src="f8fc138b1f45af4ce3820f564454c5dfef54c43016a18e6fc2671c5c8d2a776a.png" title="Click ok modal button" width="2880"/>
+                <img src="26f04ec4b99bfe4796c3062136f540a658685af9baf1ab7b043ec7e00d1308b9.png" title="Click ok modal button" width="2880"/>
+                <img src="138d8c5d26ca43e7695c43122346acff5e872678c8e1795732be88f17eb4c84e.png" title="Then System autoSystems is displayed on the page" width="2880"/>
+                <img src="a455eff9b5cb91d2abf20292d3c256e70b8a2bdcaa20b5211169e3cd21125fa4.png" title="Then System autoSystems is displayed on the page" width="2880"/>
+                <img src="fb7ff495fd18d2444a66a22f571f0dbc66a04b360cce77cc8929ea0c8279dd32.png" title="Verify system is displayed: autoSystems" width="2880"/>
+                <img src="05f7b25820c7c3eab43f0e577702f9e8b8331517ae49afe8ea68313631c0f3ec.png" title="Verify system is displayed: autoSystems" width="2880"/>
+                <img src="fddd7f78140c7a95ef2e31b3fb5c82917c2693dad30dc9e0c6ec55233b6734b3.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="858222ab76dac510befc1c85128ac9ca12ff15bb433e761617c4e75d7e28ef5e.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="f1b53fea6acc4baef1b3bfdda9fb08633caa17af88b8ca95c4c5d4fac9862065.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="d870e834e98717445883aa5cc832bfd3f8e0a389af34ee9cb9b11939fa573382.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="e3867109056060bccc3e368ea71dc85f4cf4074756965c825612301b259603be.png" title="And User populates monitor form
+| Name | aggregation1Test |
+| External ID | 1009 |
+| Description | Monitor description |" width="2880"/>
+                <img src="b48011457cca7c7a7fd6cfe256627ebc6369fd4e5d3e087c9fb09a0b0b1e980c.png" title="And User populates monitor form
+| Name | aggregation1Test |
+| External ID | 1009 |
+| Description | Monitor description |" width="2880"/>
+                <img src="7ef91490782615348418e7890ca8b94519265e4981d35a5e60509ca3b113bdc3.png" title="Populate new monitor form: {Name=aggregation1Test, External ID=1009, Description=Monitor description}" width="2880"/>
+                <img src="3f8390aa9afd2f6ed5c5ee1bf504e219419a1bf0c1d117a06233d07d9ad3d036.png" title="Populate new monitor form: {Name=aggregation1Test, External ID=1009, Description=Monitor description}" width="2880"/>
+                <img src="96a2d21b35526fc89fc17d831fe0fd19fa5f461d5306c68c59bc44b1163a24ae.png" title="Click ok modal button" width="2880"/>
+                <img src="9fa71ae8d5d2f0406d83949253fb73fb274a9a05a3f3623e183047b0d0178f68.png" title="Click ok modal button" width="2880"/>
+                <img src="225fa4309c805b569d41e81b118b1c17ab8b823ec2ee203c198359f397962214.png" title="Then Monitor aggregation1Test is displayed on the page" width="2880"/>
+                <img src="8cb3a8d0eeb3d0cab91aea79aa4877b16101d0f2336fa4714fe319b8d9d564c3.png" title="Then Monitor aggregation1Test is displayed on the page" width="2880"/>
+                <img src="7c4cb765229bf7cb4cde04039ccf01bccc8b0b2bdb7ba0c4a0e9587b7082a483.png" title="Verify monitor is displayed: aggregation1Test" width="2880"/>
+                <img src="128751e0abb44fe8da48028134e64a13db4adc884a52fb5b9e1fab06015ed30c.png" title="Verify monitor is displayed: aggregation1Test" width="2880"/>
+                <img src="438f15cc03cf58dd7a76d2b1ce3010ec54d11c3c50ba677689cb881f59779a47.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="79434ce010a88439e28c262094c65cad06a435ab38606aedf81f273c004f1dd5.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="fa5ae45d824056e8998cfa95ae7acfa35fac20dedbe55b95be0dd3ba53129233.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="c06573b946ba349f8766e504d994eab2c1399afdbdc080a7c32ba2ed92244826.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="5745e98c808f248015cc808aa045d12ce4cfd5ee53211c9e14fa766410744ba3.png" title="And User populates monitor form
+| Name | aggregation2Test |
+| External ID | 1046 |
+| Description | Monitor description |" width="2880"/>
+                <img src="b4643f9d4e5d679c1d262ffe35d0a998df852e77bb54e58d068b9b2df312e87d.png" title="And User populates monitor form
+| Name | aggregation2Test |
+| External ID | 1046 |
+| Description | Monitor description |" width="2880"/>
+                <img src="687acc84d4c8e74992a64dfdce663a716d9aedfd270d2f010e0e41c42b4cddcd.png" title="Populate new monitor form: {Name=aggregation2Test, External ID=1046, Description=Monitor description}" width="2880"/>
+                <img src="3d63e123f4c3db79536fb29cecddcd1db99564dc2bd850de43ef18719e689ec3.png" title="Populate new monitor form: {Name=aggregation2Test, External ID=1046, Description=Monitor description}" width="2880"/>
+                <img src="9a960efcb16a6d1903015be249fc5748da0b9819602ace2ab5f3290e30678568.png" title="Click ok modal button" width="2880"/>
+                <img src="f512a5b247964f9f8d8cc9def3835e4f06a4811a519a7cac69167cb310c9f98c.png" title="Click ok modal button" width="2880"/>
+                <img src="8803ba2fd0118368c18bdf77d78ba769211f0413e01d2a714495637da38e3515.png" title="Then Monitor aggregation2Test is displayed on the page" width="2880"/>
+                <img src="5106c61746cd06a6149400a2c5e2ea62f2f684cff36c3d93ed1b3a1d6d28df5b.png" title="Then Monitor aggregation2Test is displayed on the page" width="2880"/>
+                <img src="cfecfdddf6cb635ab08d95f9a2b77c64300123ac84fb1a39f2c72e979ae158a5.png" title="Verify monitor is displayed: aggregation2Test" width="2880"/>
+                <img src="0fb0120cf5f70ef45c4f9fe3b7fde8c3e8c6e42b148e9c10c9fb3f50e9ccaf7c.png" title="Verify monitor is displayed: aggregation2Test" width="2880"/>
+                <img src="58abe7455561b12d1112db0bc3df88fede668d570288b6264ef7b4fb1a26def3.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="a4946465e56ca7b7d79c81ea6401d3c823d8f15af079a51517dd5afa6b60e245.png" title="When User clicks Add Monitor for autoSystems system" width="2880"/>
+                <img src="22fe094930eca72345067e57c78e53762abafea2bd1af65fbe3106c859ebdce1.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="c69ded140203b07f35c5985755071da73a1901385886789687aac8b8224101fa.png" title="Click add monitor for specific system: autoSystems" width="2880"/>
+                <img src="1f01b62222430223d237ac5052377b1f89178a9bfbe159a969c55f9765ba321b.png" title="Then Create monitor form is displayed" width="2880"/>
+                <img src="f861a8d6ef87c58304168dc172294de31fed141f17126c0f19d3374d384d39df.png" title="Then Create monitor form is displayed" width="2880"/>
+                <img src="f861a8d6ef87c58304168dc172294de31fed141f17126c0f19d3374d384d39df.png" title="Verify create monitor form is displayed" width="2880"/>
+                <img src="ab0a777cee3e184917055090386c8ec8e0c6cad45604ec948635876582d75ed4.png" title="When User populates aggregated monitor form" width="2880"/>
+                <img src="9bb03066a405761ebcfc661e5b9cd5bb20f9cae29cdb2c01dbd011414aab9d5e.png" title="Populate monitor name: Aggregated" width="2880"/>
+                <img src="9be2a9f6bd520989e7fe6ecd4ac88835ba726410d9f0f94a921b2a6f55ee7be3.png" title="Click aggregated icon" width="2880"/>
+                <img src="d77e15d69077fe00b8d5864395c7c2155235ea650131348c1dcce241c3606d81.png" title="Click aggregated icon" width="2880"/>
+                <img src="d77e15d69077fe00b8d5864395c7c2155235ea650131348c1dcce241c3606d81.png" title="Select all sub monitors for aggregation" width="2880"/>
+                <img src="2c27d70a47ff9cf3b5c4f2ff4f9cbf5caf49b1b93df036378995c52bf882e710.png" title="Select all sub monitors for aggregation" width="2880"/>
+                <img src="42d82c54dbe3a5756ddc000e0775f202ba53574405deda5a82728ed6bbbba059.png" title="Click ok modal button" width="2880"/>
+                <img src="e9a70d458c7b9d6661425a67b8d5b2d0977a82a7614600853eda87ed7d52473e.png" title="Click ok modal button" width="2880"/>
+                <img src="8e44af0cfe35230a2939bbe618c7f5263ef3cadaa80712cfae257cf329b5b542.png" title="Then Monitor Aggregated is displayed on the page" width="2880"/>
+                <img src="ff418779abe710ebe6dd76e1b0401c8e536f71e764c53d51c09653c310dd3c1f.png" title="Then Monitor Aggregated is displayed on the page" width="2880"/>
+                <img src="a616e2b66505ab31900dce2f71ac16ec5d1611d7d7724b39519a5a9d4fccd3ab.png" title="Verify monitor is displayed: Aggregated" width="2880"/>
+                <img src="95ddf71d51ad5b250d6000b585b3380eb961ff0bbf3cba000fe8b7fc01db1a73.png" title="Verify monitor is displayed: Aggregated" width="2880"/>
+                <img src="49fd496175e58af58d7b83654ca1bae6095514b02acd247a5d6de555fb5d6a8a.png" title="And Sub-monitors are displayed for aggregated monitor" width="2880"/>
+                <img src="a3a955d9ebc028a2e3161c93d551d8024ee84e8dd94af58f46c12b415cacc74d.png" title="And Sub-monitors are displayed for aggregated monitor" width="2880"/>
+                <img src="b8762d2edd80cec3576cb3f91b71015200850dea3e0bc07bdde262cd483e4530.png" title="Verify sub monitors are displayed" width="2880"/>
+                <img src="340f77f804dd16899d9443c4441874b04d535d30428d5986131ec1000f4d7d37.png" title="Verify sub monitors are displayed" width="2880"/>
+                <img src="7ac246c6cf200dfed33db1df686599aa23cdc6e2f0816dfcb7cf8d71f4d44cff.png" title="And 1 monitors are displayed for autoSystems system" width="2880"/>
+                <img src="db4ad518b93c866aec5aab943da97dd56d97e0e2401dfbad8227576a8cc54dfc.png" title="And 1 monitors are displayed for autoSystems system" width="2880"/>
+                <img src="db4ad518b93c866aec5aab943da97dd56d97e0e2401dfbad8227576a8cc54dfc.png" title="Verify monitors amount for system: 1, autoSystems" width="2880"/>
+                <img src="baeaf69fc91ce06bd27f6f2f88688dfeef94b8b4214fe906323b57347b1a49bc.png" title="When User clicks Expand/Collapse icon for Aggregated monitor" width="2880"/>
+                <img src="baeaf69fc91ce06bd27f6f2f88688dfeef94b8b4214fe906323b57347b1a49bc.png" title="Click expand icon for specific monitor: Aggregated" width="2880"/>
+                <img src="baeaf69fc91ce06bd27f6f2f88688dfeef94b8b4214fe906323b57347b1a49bc.png" title="Then Sub-monitors are not displayed for aggregated monitor" width="2880"/>
+                <img src="baeaf69fc91ce06bd27f6f2f88688dfeef94b8b4214fe906323b57347b1a49bc.png" title="Verify sub monitors are not displayed" width="2880"/>
+                <img src="409f777a1ef945c959b6bb0757007c41809373073fc6914ce6cf3f5a4eef887d.png" title="When User deletes Aggregated monitor" width="2880"/>
+                <img src="4951d7f75d6cd33b70692c58ea68eaf2927325068f5d37a4c306ef514c9b3333.png" title="Click delete icon for specific monitor: Aggregated" width="2880"/>
+                <img src="e01d3dd968e8823a3d89edb60cba6f1dcaf5eef9283211f478f6bb546dd50f0f.png" title="Click proceed modal button" width="2880"/>
+                <img src="095c134869efe47c6f0483b1f7a28c332708cb7644e57b04daf1de980cd1b4be.png" title="Click proceed modal button" width="2880"/>
+                <img src="bc93177f45f4548c6f98f1b2b94d7dbe6e9ab653e955288c5ac65e4d05f67bc0.png" title="Then 2 monitors are displayed for autoSystems system" width="2880"/>
+                <img src="3bf15c58c5a2a60e71199c36b9b746f8b1124721bf00116c9b89c9c0836d05c5.png" title="Then 2 monitors are displayed for autoSystems system" width="2880"/>
+                <img src="b8a3e67ce4af329898a3fc5d53a4a1f4e38e7990e1ec2db818b61c3a39f5d83b.png" title="Verify monitors amount for system: 2, autoSystems" width="2880"/>
+                <img src="c0a3e8cd4c53db35cc9345ea562621b225f3d741f14de982be3928c8dec58d4a.png" title="Verify monitors amount for system: 2, autoSystems" width="2880"/>
+                <img src="367b0f6456e8a8fd9def97ad7af32cdbd78596d122260f988591a73fec08421a.png" title="When User deletes aggregation1Test monitor" width="2880"/>
+                <img src="f535ff99609c579e258cb50dac27abbd5b12d74485090318df0708f8105e1302.png" title="When User deletes aggregation1Test monitor" width="2880"/>
+                <img src="055f760a3c881f4d0d4d6cbb6c85d3c01c32c1f62a737f77ee9fcda49672b3e6.png" title="Click delete icon for specific monitor: aggregation1Test" width="2880"/>
+                <img src="860ad06ee936fbb19308ef993fb38b139f00b6f76ce1ef014e284406b2f36165.png" title="Click delete icon for specific monitor: aggregation1Test" width="2880"/>
+                <img src="05fe7e635b2460b422510ee322c49a24e7fe8854aadc12f4f06fcbcd9f727f37.png" title="Click proceed modal button" width="2880"/>
+                <img src="18218fd02a653d680ebc194686ae3e97247560bd4990a52532a9b77f46c1bd60.png" title="Click proceed modal button" width="2880"/>
+                <img src="c1a4f5ef4f28e4731356b2eff835290f4b82b2dfc121e62cfceea55c3080d0af.png" title="And User deletes aggregation2Test monitor" width="2880"/>
+                <img src="9efe349df984ac5cb700847d82cfa61182bf787a5a2aaf6ceb66d49b5b2a5101.png" title="And User deletes aggregation2Test monitor" width="2880"/>
+                <img src="d85fae208c53e0b428a8d0ead0ca4c448016294b74e895076eed77ea4d813b62.png" title="Click delete icon for specific monitor: aggregation2Test" width="2880"/>
+                <img src="12ba6ac125d31037ff71705ce7e3b605e0fd861feb9681ef1dd724b45558933d.png" title="Click delete icon for specific monitor: aggregation2Test" width="2880"/>
+                <img src="3c2faf251c51626352693fdbb28924ef63ccb62ec6d47036de0a24bcdd72ec0a.png" title="Click proceed modal button" width="2880"/>
+                <img src="68887cd085d89a4b13fa88a7fa46fa1fba736ffa9cdc7599c6c2b2a10ec39174.png" title="Click proceed modal button" width="2880"/>
+                <img src="ce3e24dda3b0621b2ea39da7f31b63935f8eb2793c68cf6d211a9738753c2acd.png" title="And User deletes autoSystems system" width="2880"/>
+                <img src="7449bfde57ea1a9565931544f7b086626f565d8b91ba33bb62d8c740d0ddde18.png" title="And User deletes autoSystems system" width="2880"/>
+                <img src="48270d86af7a6e71267e350535b29c769119a1ff851223edb7eeb13502bbd637.png" title="Click delete icon for specific system: autoSystems" width="2880"/>
+                <img src="ccdb0bbcc21837277363df1d2066a0358659c65b87667a2f9a248f1a938dcd44.png" title="Click delete icon for specific system: autoSystems" width="2880"/>
+                <img src="ad2c0e36be58af96ff0bf6a11e63c361e0672ff639b26d100931d8856783cd70.png" title="Click proceed modal button" width="2880"/>
+                <img src="8807ea8386da32022126604e0f97faafe207324e33cbaf340ea140f2b5304889.png" title="Click proceed modal button" width="2880"/>
+                <img src="08bc0cf40229a6b7f67b9a22f636de08228a974913fa4c8a144917b209108c82.png" title="And User deletes autoAggrGroup group" width="2880"/>
+                <img src="f6c4423119a1521b9a33ebe32145bf37ba09e893f9798fa8e7423722d55199a0.png" title="And User deletes autoAggrGroup group" width="2880"/>
+                <img src="3042d3b6fb491ba4573e23e18380dfecf90922f9e77fb9ea2ca0d9ff826be7b4.png" title="Click delete icon for specific group: autoAggrGroup" width="2880"/>
+                <img src="e32b68290d0b0026a77ba8889fd818c3d2555960f6b5547cecbd319f362695ee.png" title="Click delete icon for specific group: autoAggrGroup" width="2880"/>
+                <img src="9e6f63c96dd0e9a1344907e23dfa295848c7ac7e4965d457a0f18e4ad005a9b3.png" title="Click proceed modal button" width="2880"/>
+                <img src="4032ef13a42ab0050f3d4dd7d58b5a0bfd4d3d10dddadec918c71f3a318f078f.png" title="Click proceed modal button: <span class='success-color'>SUCCESS</span>" width="2880"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

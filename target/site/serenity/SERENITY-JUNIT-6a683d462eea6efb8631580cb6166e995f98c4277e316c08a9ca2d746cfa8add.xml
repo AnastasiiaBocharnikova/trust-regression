@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Status History - Admin" skipped="0" tests="4" time="281.97" timestamp="2019-02-18 04:33:08"><testcase name="Admin Status History page - Admin legend, edit notification"/><testcase name="Admin Status History page - Navigation on monitor link"/><testcase name="Admin Status History page - Drill down tables, edit notif, click on back button"><error type="net.serenitybdd.core.exceptions.UnrecognisedException"/><system-err>null
+com.trust.cucumber.pages.StatusHistoryPage.checkDrillDownDateTime(StatusHistoryPage.java:393)
+com.trust.cucumber.steps.StatusHistoryPageSteps.checkDrillDownDateTime(StatusHistoryPageSteps.java:206)
+com.trust.cucumber.stepDefs.StatusHistoryPageStepDef.drillDownDatetimeChangedToMinusMins(StatusHistoryPageStepDef.java:209)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Multiple monitors"><failure message="expected:&lt;[Feb] 18, 2019&gt; but was:&lt;[фев] 18, 2019&gt;" type="java.lang.AssertionError">expected:&lt;[Feb] 18, 2019&gt; but was:&lt;[фев] 18, 2019&gt;</failure><system-err>expected:&lt;[Feb] 18, 2019&gt; but was:&lt;[фев] 18, 2019&gt;
+com.trust.cucumber.pages.PerformancePage.verifyDefaultPerformanceDateIsCurrentDate(PerformancePage.java:67)
+com.trust.cucumber.steps.PerformancePageSteps.verifyDefaultPerformanceDateIsCurrentDate(PerformancePageSteps.java:27)
+com.trust.cucumber.stepDefs.PerformancePageStepDef.verifyDefaultPerformanceDateIsCurrentDate(PerformancePageStepDef.java:23)
+✽.Current date is displayed by default(src/test/resources/Features/AdminStatusHistoryPage.feature:109)
+</system-err></testcase></testsuite>

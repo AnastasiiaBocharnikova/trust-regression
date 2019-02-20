@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Systems" skipped="0" tests="5" time="444.67" timestamp="2019-02-18 06:43:51"><testcase name="General verifications to check creating, updating and deleting entities"><failure type="java.lang.AssertionError"/><system-err>null
+com.trust.cucumber.pages.SystemsPage.verifyGroupIsDisplayed(SystemsPage.java:83)
+com.trust.cucumber.steps.SystemsPageSteps.verifyGroupIsDisplayed(SystemsPageSteps.java:39)
+com.trust.cucumber.stepDefs.SystemPageStepDef.verifyGroupIsDisplayed(SystemPageStepDef.java:36)
+✽.Group autoGroup is displayed on the page(src/test/resources/Features/Systems.feature:32)
+</system-err></testcase><testcase name="Checking filtering by region"/><testcase name="Creating aggregated monitor"/><testcase name="Public system can't be deleted with associated institution (TRUST-2116)"/><testcase name="Uploading file for a system"><failure type="java.lang.AssertionError"/><system-err>null
+com.trust.cucumber.pages.SystemsPage.verifyGroupIsDisplayed(SystemsPage.java:83)
+com.trust.cucumber.steps.SystemsPageSteps.verifyGroupIsDisplayed(SystemsPageSteps.java:39)
+com.trust.cucumber.stepDefs.SystemPageStepDef.verifyGroupIsDisplayed(SystemPageStepDef.java:36)
+✽.Group autoUploadGroup is displayed on the page(src/test/resources/Features/Systems.feature:200)
+</system-err></testcase></testsuite>

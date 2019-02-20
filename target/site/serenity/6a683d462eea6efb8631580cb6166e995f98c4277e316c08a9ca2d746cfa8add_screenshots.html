@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="adb2d24af4f13274f9048ec6f5ee90ba07fe83cadf239f8720effe580cc1c36f.html">Status History   Admin</a></span>
+                > <span class="truncate-60"><a
+                    href="6a683d462eea6efb8631580cb6166e995f98c4277e316c08a9ca2d746cfa8add.html">Admin Status History page - Admin legend, edit notification </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-02-2019 16:33</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Status History   Admin </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: User launches application
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1fa257a78af9c48e1e224c30905375b17d3340b16febed88a84b376a2d606fe1.html">Statushistory
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4b2d5dd531df7d06f38c5954c7560c0a7406d11c60827285dec13eb361d44ced.html">Adminstatushistory
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Admin Status History page - Admin legend, edit notification
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="799bb9ac84e097853b216e375bb10ca1e05b6e6672e6bb60f30554799379da14.png" title="Given User launches application1" width="2880"/>
+                <img src="37c9ba28874382f3a357be358442786a7d91f6131854fdf391e093f73cd70728.png" title="Launchapp: https://techcheck-qa.cengage.com/" width="2880"/>
+                <img src="9ef564435cb585027b881199d8c90c363efbee4a584dbbf16d7a917dcbb117a8.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="d7109db37e61fae283e07f1ea89bc0bff00ff9f37653367855511c308a3570c1.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="57485debc9bfee631124034e6fb045e5b58d496d94c8e40e32126bb01e2b8331.png" title="Go to login page" width="2880"/>
+                <img src="18088ee96dd4c3de576f31f70b93822dc87b5730d79814e25fbd2c9446ba8aa7.png" title="Go to login page" width="2880"/>
+                <img src="d2bca9fe5a1c10dee1ef7db9e9945c98a12619e8748bc7c0ec071d815939208e.png" title="And Login with valid admin credentials1" width="2880"/>
+                <img src="78718617d3e2ee409194f1e6e57d88ff5e3e5028e52307e5c7b77a1500d53a6c.png" title="Login app: auto-test, 2018Auto@!" width="2880"/>
+                <img src="86c1cd247a623b3d4e3684325dae5bc4e136958de48afab1d21c63f5914198ca.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="975420de3308c3585380bdd4bd876745283f9d9cfc9c90009cb46eeeb0f971be.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="bc59fd75ce0bdb7ced8e41ac2ae5c699b280770b068570c0c99d51ca0de8d9a3.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="afe2b4e2c030f6c225424ea2d72d0c5602749f210fe105c011310e647f2a7195.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="fefa3b0e20a1283e6ecd493ad951ce6fbbbd859744e781e4b46ed5e0a5c9698b.png" title="Given User is on Splash page1" width="2880"/>
+                <img src="c492f6fa1818ffa98b70edb3a5a00f66bde90240d5fa7ab8740dcd7ae0508b48.png" title="Given User is on Splash page1" width="2880"/>
+                <img src="663ae6a2438c222563fed124de51fc35c769ab9c7ab17c1e7048eabb679779da.png" title="When User clicks on $ System 4 - Admin System card" width="2880"/>
+                <img src="c2c5c9a56af4c1484f302c0c472fc4d38d724589affef4910200b2ba24602986.png" title="When User clicks on $ System 4 - Admin System card" width="2880"/>
+                <img src="51c7a83328f108dbf319403728fdcd1463eafecbaaf72b0fd9b8a915c7f253ed.png" title="Then Status History Page is opened" width="2880"/>
+                <img src="7fe1d5766e2af44d45a70bbb3bbba4c81397e27ef05cc0d46e25f2eabc7f7c80.png" title="Then Status History Page is opened" width="2880"/>
+                <img src="1ec8ccf685fe41c998e45e6d3143deebefd6eea85e3156ac3776b691b4e0b16a.png" title="Is required page opened: Status History" width="2880"/>
+                <img src="238d603e6187c5740000ef6b92c233b618cd9e7de7e1a7c0e1581b5a84e2cdea.png" title="And Status history is displayed" width="2880"/>
+                <img src="85bba1f7a82270ba245b3b30a73acbc468d7ac363df55407a2d1b9442702a170.png" title="And Status history is displayed" width="2880"/>
+                <img src="238d603e6187c5740000ef6b92c233b618cd9e7de7e1a7c0e1581b5a84e2cdea.png" title="Day status history is displayed" width="2880"/>
+                <img src="6bcba9bf8fe5b20e8b8277d7b178d5bd11f763b682699eb68ec63a29ec299d59.png" title="And User sees an admin legend" width="2880"/>
+                <img src="6bf819aa370b5b730fcb8e97be143304ac3be59fa0ad0649bd37c49c85dbd0ce.png" title="When Admin click edit notification button on Splash or SH Page" width="2880"/>
+                <img src="3e5460d6908c5aa08cba0e243c9cdb2d1e99aea1d93741be0f20127596f5786a.png" title="Then Admin has opened Edit Notification form Splash or SH Page" width="2880"/>
+                <img src="3e5460d6908c5aa08cba0e243c9cdb2d1e99aea1d93741be0f20127596f5786a.png" title="Verify edit notification pop up is opened from splash: <span class='success-color'>SUCCESS</span>" width="2880"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

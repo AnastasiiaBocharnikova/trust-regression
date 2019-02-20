@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="adb2d24af4f13274f9048ec6f5ee90ba07fe83cadf239f8720effe580cc1c36f.html">Status History   Admin</a></span>
+                > <span class="truncate-60"><a
+                    href="c2b98e84e34f297b72439048e140a7a87ecf9cb33fbca482c4dfb7602c278147.html">Multiple monitors </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-02-2019 16:35</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Status History   Admin </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: User launches application
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="391f1a389ca65aee7ae48c94b64dec3492c75755391ef2cca16a29674b7720d5.html">Multiplemonitors
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1fa257a78af9c48e1e224c30905375b17d3340b16febed88a84b376a2d606fe1.html">Statushistory
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="4b2d5dd531df7d06f38c5954c7560c0a7406d11c60827285dec13eb361d44ced.html">Adminstatushistory
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Multiple monitors
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: expected:([Feb] 18, 2019) but was:([фев] 18, 2019)">
+                            Assertion error: expected:([Feb] 18, 2019) but was:([фев] 18, 2019)
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>expected:&lt;[Feb] 18, 2019&gt; but was:&lt;[фев] 18, 2019&gt;</pre>
+                                    </h5>
+                                    com.trust.cucumber.pages.PerformancePage.verifyDefaultPerformanceDateIsCurrentDate(PerformancePage.java
+                                    :67) <br>
+                                    com.trust.cucumber.steps.PerformancePageSteps.verifyDefaultPerformanceDateIsCurrentDate(PerformancePageSteps.java
+                                    :27) <br>
+                                    com.trust.cucumber.stepDefs.PerformancePageStepDef.verifyDefaultPerformanceDateIsCurrentDate(PerformancePageStepDef.java
+                                    :23) <br>
+                                    ✽.Current date is displayed by default(src/test/resources/Features/AdminStatusHistoryPage.feature
+                                    :109) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource690322337814183742.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9dfe39980949c9ed571c5498be799a2b7d7c7df05c28d25b8f2fa1e674fe868c.png" title="Given User launches application1" width="2880"/>
+                <img src="37c9ba28874382f3a357be358442786a7d91f6131854fdf391e093f73cd70728.png" title="Launchapp: https://techcheck-qa.cengage.com/" width="2880"/>
+                <img src="d71a694477e33ff09b4584ca94cdcb32d1f993c80699ebe09ce86201d4cfed09.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="a91a7cc7dc95b61bae8db14f9dfec976349e12a386bbcfbe4a4b248bd03ecfc6.png" title="When User Navigates to LoginPage1" width="2880"/>
+                <img src="820aaefbba2e837703a1bc30d6c92cdcb97f066fbc7dc8fedbbbea354ac72c58.png" title="Go to login page" width="2880"/>
+                <img src="37f96def2475ffbaba316450f8bdf09deab9745853001b68025dfab231b06950.png" title="Go to login page" width="2880"/>
+                <img src="6be45c01ddc0b77842620ba8e861a3370fb73a1748105d35f0ada9e78710bedf.png" title="And Login with valid admin credentials1" width="2880"/>
+                <img src="355a41212799a3cc2a51acb3b14fa6746dcef75f5ce74305b824ce9d0e88572a.png" title="Login app: auto-test, 2018Auto@!" width="2880"/>
+                <img src="880edd33da13b06c8014f9f53636a7403f7f5662283bb9b8e86879df96e2e5fa.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="9d5541535f0246e9583e801c8c48be184a7d37b5bd73264c90b6cb6a5942c513.png" title="Then Platform Availability Home Page is opened" width="2880"/>
+                <img src="7e2f4c4c0995b0f439cafb7e8ceba7816ad2cb3a07abd7806ebb21392843b621.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="25d6458641e39d0e2c72b10ab454e750acfac8aca5021f0daf69d083c02c123b.png" title="Is required page opened: Platform Availability Home" width="2880"/>
+                <img src="bc5c869f95f47f67713c28b10b15ca2ce602b7f01c99302d76f35309bf68ac5b.png" title="When User clicks on Aplia System card" width="2880"/>
+                <img src="819b0179b72140501633e05c24fccb1f4cf9e95a745ff2be1ae8abc5886b8e09.png" title="When User clicks on Aplia System card" width="2880"/>
+                <img src="eccb754a33ec32bf27a6b644ce7655dc225a920579c7a998c65f5302f7d22dc0.png" title="Then Status History Page is opened" width="2880"/>
+                <img src="234939e1dc89abe2553dc993cd813dc9b4251910e806278b604d1a5129cf8f52.png" title="Then Status History Page is opened" width="2880"/>
+                <img src="e1f5be6cea5e65502f89d4dc4d8cd57b13e25110eaa66b10297a44f640599ce7.png" title="Is required page opened: Status History" width="2880"/>
+                <img src="ae14a810b6f5d62c98e020d81b0f6b54486894327bfec09957f5d51cadaee8d2.png" title="Is required page opened: Status History" width="2880"/>
+                <img src="b174b18620aa6a2210f46d4af80dc1a71be27aa1d27a57efb6300c69837fb42d.png" title="When User sees and clicks Add monitors button" width="2880"/>
+                <img src="7a027e401c395fda3144c997b9fb3df23bc0fa4d6068468422cfdb4d86d566cd.png" title="When User sees and clicks Add monitors button" width="2880"/>
+                <img src="b174b18620aa6a2210f46d4af80dc1a71be27aa1d27a57efb6300c69837fb42d.png" title="Verify and click add monitors button" width="2880"/>
+                <img src="09338412fd90861b88ad49ec895ed3b806ffd5ab22448f126ecb69d651aec6bf.png" title="Verify and click add monitors button" width="2880"/>
+                <img src="8b4a0dbbe0e18643e0fbd86ca38d709f6dc36c2a7240b6b091effc316b51d674.png" title="Then Select monitors window is appeared" width="2880"/>
+                <img src="7a027e401c395fda3144c997b9fb3df23bc0fa4d6068468422cfdb4d86d566cd.png" title="Verify modal window is appeared: Select monitors" width="2880"/>
+                <img src="8b4a0dbbe0e18643e0fbd86ca38d709f6dc36c2a7240b6b091effc316b51d674.png" title="And checkbox for Aplia \ Aplia (1032) monitor is selected and not editable" width="2880"/>
+                <img src="8b4a0dbbe0e18643e0fbd86ca38d709f6dc36c2a7240b6b091effc316b51d674.png" title="Check box for monitor is selected and not editable: Aplia \ Aplia (1032)" width="2880"/>
+                <img src="69b5f51c8362e2eeb88a02be57dca7f8b0724a5456f13697a18a64bece9e9d31.png" title="When User clicks on checkbox with &quot;MindTap \ MindTap (1009)&quot; monitor" width="2880"/>
+                <img src="e69d88119f91ad197469e3513eed455b00052b45fb63360e5d252041200efcb8.png" title="When User clicks on checkbox with &quot;MindTap \ MindTap (1009)&quot; monitor" width="2880"/>
+                <img src="69b5f51c8362e2eeb88a02be57dca7f8b0724a5456f13697a18a64bece9e9d31.png" title="Click on monitor check box: MindTap \ MindTap (1009)" width="2880"/>
+                <img src="e2b98bc4631d8d7ef672462aa54145308b3ff21ae430de267d555fe9f5b3e252.png" title="Click on monitor check box: MindTap \ MindTap (1009)" width="2880"/>
+                <img src="3a9e6e49d2651405afc0f29caa40cedd9c5dbda95aeac4ba1fa0f6f983f351c9.png" title="And User clicks on checkbox with &quot;Questia \ Questia (1046)&quot; monitor" width="2880"/>
+                <img src="b11f3df9854086fbf43542aa4968fa570c6382dd7ba9c9cbd81250aead858764.png" title="And User clicks on checkbox with &quot;Questia \ Questia (1046)&quot; monitor" width="2880"/>
+                <img src="3a9e6e49d2651405afc0f29caa40cedd9c5dbda95aeac4ba1fa0f6f983f351c9.png" title="Click on monitor check box: Questia \ Questia (1046)" width="2880"/>
+                <img src="aec57cb0bb15c07ee05c42075e93f0253afce01a233ff9a4eeb242d18268fbc3.png" title="Click on monitor check box: Questia \ Questia (1046)" width="2880"/>
+                <img src="f8d3b3c8096d1e5bbc6a6babf10337dd1c16cb3d79ade7a07c1ac50c245faa36.png" title="And User clicks on OK modal button" width="2880"/>
+                <img src="4b44158cd1c373489125cd9c7659386040b5bcd700603f48ee4d5022c718f082.png" title="And User clicks on OK modal button" width="2880"/>
+                <img src="f8d3b3c8096d1e5bbc6a6babf10337dd1c16cb3d79ade7a07c1ac50c245faa36.png" title="Click on OK modal button" width="2880"/>
+                <img src="abae94a8e94da665ce8a4baed942ee745fdc37386c9671cf408a838df6c705de.png" title="Click on OK modal button" width="2880"/>
+                <img src="867577e68c7d822ce2330e3886a946662b6bf416f8f93d31cf214ee509f50332.png" title="Then Select monitors window is closed" width="2880"/>
+                <img src="867577e68c7d822ce2330e3886a946662b6bf416f8f93d31cf214ee509f50332.png" title="Verify modal window is closed: Select monitors" width="2880"/>
+                <img src="af9c4abbf041f2d3f8b050f7caac66f8f13c055aaafccc5313a65b3189392243.png" title="When User clicks on 1009 link on Multiple Monitors view" width="2880"/>
+                <img src="6148fca0a271cad512c9397927ffdb39ec4ef0410cd10e9d64cb477a9cb9d77d.png" title="Then Status history for monitor MindTap \ MindTap (1009) is displayed on the page" width="2880"/>
+                <img src="2af8597e66237dbec0c53c88525b34aaea655ca16f7c148f5669923d92a8b5d3.png" title="Then Status history for monitor MindTap \ MindTap (1009) is displayed on the page" width="2880"/>
+                <img src="6148fca0a271cad512c9397927ffdb39ec4ef0410cd10e9d64cb477a9cb9d77d.png" title="Verify status history for single monitor is displayed: MindTap \ MindTap (1009)" width="2880"/>
+                <img src="d6d99c854801c69ffcf670d1ceac28b1b8203b24f1acef37049a88f694ed6d1e.png" title="When User clicks browser back button" width="2880"/>
+                <img src="11326088787b091a8d90c213c503060d944ef16ad8d07cd12529e40449dcade9.png" title="When User clicks browser back button" width="2880"/>
+                <img src="435588ab75888aedf786f6d5f0800c851400d102a038aaa1c82c9b887017303d.png" title="Then Multiple Monitors view is opened" width="2880"/>
+                <img src="a1f068a56aa033f72dd5c8a19849edf599094b2747566ddda4fdd3ba6a516293.png" title="And chosen &quot;MindTap / MindTap&quot; with Service ID 1009 monitor is in the list" width="2880"/>
+                <img src="27d941361d1d51c0aca365c5306d0c8b6d7bfca8e6e71e38f4237000f5000256.png" title="Monitor is in the list: MindTap / MindTap, 1009" width="2880"/>
+                <img src="a1f068a56aa033f72dd5c8a19849edf599094b2747566ddda4fdd3ba6a516293.png" title="Monitor is in the list: MindTap / MindTap, 1009" width="2880"/>
+                <img src="a9471c0d3b6425043a0b924ef200e204e91960284284171bd13b083c13237967.png" title="And chosen &quot;Questia / Questia&quot; with Service ID 1046 monitor is in the list" width="2880"/>
+                <img src="7d5c799c75b10a6b19dd622eb049a28e37edb6fdc03c4cf3d7481c3459997711.png" title="And chosen &quot;Questia / Questia&quot; with Service ID 1046 monitor is in the list" width="2880"/>
+                <img src="19ddaec0a719417073f38178be33994d4dd9d6daa8074d0e80f0a0de6e90d0fa.png" title="Monitor is in the list: Questia / Questia, 1046" width="2880"/>
+                <img src="bbf7039bdd4fd42ad0ec33c1abed24c2db882264a1de8d7497cbbc28b15ff20a.png" title="Monitor is in the list: Questia / Questia, 1046" width="2880"/>
+                <img src="327b28c957ea89fd36f3069ed5254750f3f00b3d407f39c519e7cb29debf510a.png" title="And chosen &quot;Aplia / Aplia&quot; with Service ID 1032 monitor is in the list" width="2880"/>
+                <img src="327b28c957ea89fd36f3069ed5254750f3f00b3d407f39c519e7cb29debf510a.png" title="Monitor is in the list: Aplia / Aplia, 1032" width="2880"/>
+                <img src="88a51bdf92a6d7871b2cbfc73250015820f9d6cee7b12791b3446bf27cea0eda.png" title="And Last 30 days tab is not visible" width="2880"/>
+                <img src="c59018c46efd470d7ac1c25d469a193937524deef8113e3ff9dfbe11e6660158.png" title="Tab is not visible: Last 30 days" width="2880"/>
+                <img src="96cb78a8bc23f1db34b3a9b7fea005327ac8906103c514873c53d52b00bc6539.png" title="Tab is not visible: Last 30 days" width="2880"/>
+                <img src="c73a1974bc603d2554a00ce590903bfcc7954bcf79ed6caa4c62c78a360af824.png" title="And Specify range tab is not visible" width="2880"/>
+                <img src="5e17870689b9c0801a439d4d16d114e6a2ac47d0e6eea7a8365e1fadb1416117.png" title="And Specify range tab is not visible" width="2880"/>
+                <img src="c73a1974bc603d2554a00ce590903bfcc7954bcf79ed6caa4c62c78a360af824.png" title="Tab is not visible: Specify range" width="2880"/>
+                <img src="5e17870689b9c0801a439d4d16d114e6a2ac47d0e6eea7a8365e1fadb1416117.png" title="Tab is not visible: Specify range" width="2880"/>
+                <img src="55a661a8769618e9bca6b477c34d392644cc85d3d451dc9aa007eb09eb31b3b2.png" title="When User clicks on Last 24h history view" width="2880"/>
+                <img src="173c1d2c03434ba82b2d04880ab4cb5a2d4239fce8fea1a70b3d329dea2a03f9.png" title="Click history view button: Last 24h" width="2880"/>
+                <img src="2239c9bb99054f0be52c6663c7ce1d5d467c1bed4f55da91ecb2b04d3beb3206.png" title="Then last-24  tab is selected" width="2880"/>
+                <img src="e0e0b49a76119de8e796339baaf2f41e5427f06b1d4c1e8888508aff2f57229b.png" title="And there are 75 sections in the status bar" width="2880"/>
+                <img src="15de2df36f8e3e98492afa6ff1c9ea0ee095dcca31641c5a557ddd5d3fa632e4.png" title="And there are 75 sections in the status bar" width="2880"/>
+                <img src="947035e2963ec0609028dd9653f0b3cb69b77a9780face7c6a09a7fcfd247265.png" title="Amount of sections in the status bar: 75" width="2880"/>
+                <img src="b1b91d23ba21c566146a1f69952433b1da269eca33ffa10f2af90f0e7b990be0.png" title="And chosen &quot;MindTap / MindTap&quot; with Service ID 1009 monitor is in the list" width="2880"/>
+                <img src="bbd2a01cad1cd7723e0357e52d40ed24d777c78d7d05d38e7d0b97761862d3dc.png" title="And chosen &quot;MindTap / MindTap&quot; with Service ID 1009 monitor is in the list" width="2880"/>
+                <img src="b1b91d23ba21c566146a1f69952433b1da269eca33ffa10f2af90f0e7b990be0.png" title="Monitor is in the list: MindTap / MindTap, 1009" width="2880"/>
+                <img src="bbd2a01cad1cd7723e0357e52d40ed24d777c78d7d05d38e7d0b97761862d3dc.png" title="Monitor is in the list: MindTap / MindTap, 1009" width="2880"/>
+                <img src="d5d130a8b22fecc5c68ec593545f01ab0735bc7e371bd37649a86937ea8fa2b4.png" title="And chosen &quot;Questia / Questia&quot; with Service ID 1046 monitor is in the list" width="2880"/>
+                <img src="517e743a2cafa0aba3b3d230c6fa01c05cb3e82e9dc891ea5f481677d4588352.png" title="And chosen &quot;Questia / Questia&quot; with Service ID 1046 monitor is in the list" width="2880"/>
+                <img src="2e0dbd429e06aaa5e145e4769ea2c603a446b0da90bbf5037f4f03e24fa87db7.png" title="Monitor is in the list: Questia / Questia, 1046" width="2880"/>
+                <img src="77d0f5f9787df5186d068124424303b677511a9573f3bb1404ba9c6041ccadf9.png" title="Monitor is in the list: Questia / Questia, 1046" width="2880"/>
+                <img src="d180d6f6460106d0a98f7696ec96da472d6640e46c3127f231a7802fb81f3a22.png" title="And chosen &quot;Aplia / Aplia&quot; with Service ID 1032 monitor is in the list" width="2880"/>
+                <img src="bd3335823609b7dc67dddec70c974465c39cf19292b958e38b567f65a8b26c72.png" title="Monitor is in the list: Aplia / Aplia, 1032" width="2880"/>
+                <img src="58cea0ba3aa9ba4343a4fd9faf2318538aad470d3321fa2bc88a9ad5f78ee8d4.png" title="When User clicks on Specify date history view" width="2880"/>
+                <img src="b43194834436695cb1453fba753b43f1c460e95466191b9fb74f4884998ed035.png" title="When User clicks on Specify date history view" width="2880"/>
+                <img src="58cea0ba3aa9ba4343a4fd9faf2318538aad470d3321fa2bc88a9ad5f78ee8d4.png" title="Click history view button: Specify date" width="2880"/>
+                <img src="5c6fc6b42e63065d04511a3c9c8f90c8756c0e8ee1389a443da8021805dbf086.png" title="Click history view button: Specify date" width="2880"/>
+                <img src="b43194834436695cb1453fba753b43f1c460e95466191b9fb74f4884998ed035.png" title="Then specify-date  tab is selected" width="2880"/>
+                <img src="f2993e7bd393dfd2ccda44264dc964ce11805a8e5d430e0ce585bd3b69a36549.png" title="And Current date is displayed by default" width="2880"/>
+                <img src="f2993e7bd393dfd2ccda44264dc964ce11805a8e5d430e0ce585bd3b69a36549.png" title="Verify default performance date is current date" width="2880"/>
+                <img src="f2993e7bd393dfd2ccda44264dc964ce11805a8e5d430e0ce585bd3b69a36549.png" title="Verify default performance date is current date: <span class='failing-color'>FAILURE</span>" width="2880"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
