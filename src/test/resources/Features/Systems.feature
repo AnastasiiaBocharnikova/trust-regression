@@ -207,7 +207,7 @@ Feature: Systems
 		When User clicks update icon for uploadSystems system
 		Then Edit system form is displayed
 
-		When User clicks on Add Logo button and selects pathbrite-square image
+		When User clicks on Add Logo button and selects pathbrite-square.png image
 		Then System uploadSystems is displayed on the page
 
 		When User deletes uploadSystems system

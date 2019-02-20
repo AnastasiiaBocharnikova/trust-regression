@@ -445,7 +445,9 @@ public class SystemsPage extends PageObject {
 
 
 	public void uploadLogoForSystem(String fileName) {
-		StringSelection ss = new StringSelection("C:\\Users\\bocharnikova\\Documents\\GitHub\\trust-regression\\src\\test\\resources\\" + fileName);
+		File file = new File("src/test/resources/");
+		String absolutePath = file.getAbsolutePath();
+		StringSelection ss = new StringSelection(absolutePath + "\\" + fileName);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 //		File photo = new File("src/test/resources/" + fileName);
 		uploadLogoButton.click();
